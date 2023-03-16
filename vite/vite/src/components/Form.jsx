@@ -1,10 +1,15 @@
 import React from 'react'
+import './Form.styles.css'
 
 const Form = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <form action="">
+        <input type="email" />
+        <input type="password" />
+      </form>
+
+    </>
   )
 }
 
